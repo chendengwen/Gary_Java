@@ -15,6 +15,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/mac/Downloads/黑马Java/开发包/com.sysdeo.eclipse.tomcat_3.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.sysdeo.eclipse.tomcat_3.3.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
