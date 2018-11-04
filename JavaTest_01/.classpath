@@ -16,5 +16,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/com.sysdeo.eclipse.tomcat_3.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-dataformat-xml-2.9.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
