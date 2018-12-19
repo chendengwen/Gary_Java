@@ -39,4 +39,8 @@ class test {
 		}	
 		return result.toString();
 	}
+	
+	public void javaReflect() {
+		
+	}
 }
