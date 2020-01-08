@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="lib/jackson-core-2.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-databind-2.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-dataformat-xml-2.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/dengwenchen/Desktop/Gary_Java/Tmall/WebContent/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
