@@ -10,7 +10,7 @@ public class DBUtil {
     static String database = "tmall";
     static String encoding = "UTF-8";
     static String loginName = "root";
-    static String password = "Chendeng56";
+    static String password = "Chendw123";
 
     static {
         try {
@@ -22,6 +22,7 @@ public class DBUtil {
 
     public static Connection getConnection() throws SQLException {
         String url = String.format("jdbc:mysql://%s:%d/%s?characterEncoding=%s&useSSL=false", ip, port, database, encoding);
+        System.out.println(url);
         return DriverManager.getConnection(url, loginName, password);
     }
 

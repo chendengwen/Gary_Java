@@ -12,7 +12,7 @@ public class MySQLDemo {
 		Statement statement = null;
 		
 		String user = "root";
-		String password = "Chendeng56";
+		String password = "Chendw123";
 		
 		try {
 			// 注册 JDBC 驱动
