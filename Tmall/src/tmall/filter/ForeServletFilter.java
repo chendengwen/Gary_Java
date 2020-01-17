@@ -25,7 +25,7 @@ public class ForeServletFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         String contextPath = request.getServletContext().getContextPath();
         request.getServletContext().setAttribute("contextPath", contextPath);
-
+        
         User user = (User) request.getSession().getAttribute("user");
         int cartTotalItemNumber = 0;
         if (null != user) {

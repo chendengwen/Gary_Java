@@ -21,6 +21,7 @@ public class ForeServlet extends BaseForeServlet {
         new ProductDAO().fill(categories);
         new ProductDAO().fillByRow(categories);
         request.setAttribute("categories", categories);
+        System.out.println(categories);
         return "home.jsp";
     }
 

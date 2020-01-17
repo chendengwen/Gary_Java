@@ -22,7 +22,7 @@ public class DBUtil {
 
     public static Connection getConnection() throws SQLException {
         String url = String.format("jdbc:mysql://%s:%d/%s?characterEncoding=%s&useSSL=false", ip, port, database, encoding);
-        System.out.println(url);
+//        System.out.println(url);
         return DriverManager.getConnection(url, loginName, password);
     }
 

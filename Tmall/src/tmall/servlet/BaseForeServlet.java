@@ -32,9 +32,9 @@ public class BaseForeServlet extends HttpServlet {
                 count = Integer.parseInt(req.getParameter("page.count"));
             }
 
-
             Page page = new Page(start, count);
             String method = (String) req.getAttribute("method");
+            System.out.println("method == " + method);
             Method m = this.getClass().getMethod(method, HttpServletRequest.class, HttpServletResponse.class, Page.class);
             String redirect = m.invoke(this, req, resp, page).toString();
             if (redirect.startsWith("@")) {
@@ -43,6 +43,7 @@ public class BaseForeServlet extends HttpServlet {
                 resp.getWriter().print(redirect.substring(1));
             } else {
                 req.getRequestDispatcher(redirect).forward(req, resp);
+                System.out.println("redirect == " + redirect);
             }
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
