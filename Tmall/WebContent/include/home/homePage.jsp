@@ -3,7 +3,7 @@
 <title>模仿天猫官网</title>
 
 <div class="homepageDiv">
-	<%@include file="categoryAndcarousel.jsp"%>
+	<%@include file="categoryAndcarousel.jsp"%> <!-- 商品分类 -->
 	<%@include file="homepageCategoryProducts.jsp"%>	
 </div>
 

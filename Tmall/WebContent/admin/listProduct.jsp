@@ -16,7 +16,7 @@
 				return false;
 // 			if (!checkEmpty("subTitle", "小标题"))
 // 				return false;
-			if (!checkNumber("orignalPrice", "原价格"))
+			if (!checkNumber("originalPrice", "原价格"))
 				return false;
 			if (!checkNumber("promotePrice", "优惠价格"))
 				return false;
@@ -71,7 +71,7 @@
 						</td>
 						<td>${p.name}</td>
 						<td>${p.subTitle}</td>
-						<td>${p.orignalPrice}</td>
+						<td>${p.originalPrice}</td>
 						<td>${p.promotePrice}</td>
 						<td>${p.stock}</td>
 						<td><a href="admin_productImage_list?pid=${p.id}"><span
@@ -112,7 +112,7 @@
 					</tr>
 					<tr>
 						<td>原价格</td>
-						<td><input id="orignalPrice" value="99.98" name="orignalPrice" type="text"
+						<td><input id="originalPrice" value="99.98" name="originalPrice" type="text"
 							class="form-control"></td>
 					</tr>
 					<tr>
