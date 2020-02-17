@@ -39,7 +39,7 @@ public class ForeServletFilter implements Filter {
         List<Category> categories = (List<Category>) request.getAttribute("categories");
         if (null == categories) {
             categories = new CategoryDAO().list();
-            request.setAttribute("categories", categories);
+            request.setAttribute("cs", categories);
         }
 
         String uri = request.getRequestURI();

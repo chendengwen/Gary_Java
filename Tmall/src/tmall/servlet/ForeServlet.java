@@ -20,8 +20,7 @@ public class ForeServlet extends BaseForeServlet {
         List<Category> categories = new CategoryDAO().list();
         new ProductDAO().fill(categories);
         new ProductDAO().fillByRow(categories);
-        request.setAttribute("categories", categories);
-        System.out.println(categories);
+        request.setAttribute("cs", categories);
         return "home.jsp";
     }
 
@@ -29,7 +28,6 @@ public class ForeServlet extends BaseForeServlet {
         String name = request.getParameter("name");
         String password = request.getParameter("password");
         name = HtmlUtils.htmlEscape(name);
-        System.out.println(name);
         boolean exist = userDAO.isExist(name);
 
         if (exist) {
