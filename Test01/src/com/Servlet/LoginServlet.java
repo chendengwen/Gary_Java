@@ -1,17 +1,14 @@
 package com.Servlet;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.fasterxml.jackson.databind.JsonNode;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 //@WebServlet("loginServlet")
 public class LoginServlet extends HttpServlet {

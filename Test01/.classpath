@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="/Users/gary/Documents/Github/Java/Test01/lib/jackson-dataformat-xml-2.9.0.jar"/>
 	<classpathentry kind="lib" path="/Users/gary/Documents/Github/Java/Test01/lib/jackson.jar"/>
 	<classpathentry kind="lib" path="/Users/gary/Documents/Github/Java/Test01/lib/mysql-connector-java-8.0.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
