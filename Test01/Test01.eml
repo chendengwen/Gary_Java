@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component jdk="JavaSE-1.8" jdk_type="JavaSDK">
 	<exclude-output/>
-	<contentEntry url="file://$MODULE_DIR$"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$"/>
+		<excludeFolder url="file://$MODULE_DIR$"/>
+	</contentEntry>
+	<lib name="com.sysdeo.eclipse.tomcat_3.3.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/com.sysdeo.eclipse.tomcat_3.3.1.jar!/"/>
+	</lib>
+	<lib name="jackson-annotations-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-annotations-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson-core-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-core-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson-databind-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson-dataformat-xml-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-dataformat-xml-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-8.0.12.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.12.jar!/"/>
+	</lib>
 	<levels>
 		<level name="Java EE 6-Java EE 6" value="project"/>
 	</levels>
