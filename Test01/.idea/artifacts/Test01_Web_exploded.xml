@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Test01:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Test01_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Test01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Test01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="com.sysdeo.eclipse.tomcat_3.3.1.jar" module-name="Test01" />
+          <element id="library" level="module" name="jackson-annotations-2.9.0.jar" module-name="Test01" />
+          <element id="library" level="module" name="jackson-core-2.9.0.jar" module-name="Test01" />
+          <element id="library" level="module" name="jackson-databind-2.9.0.jar" module-name="Test01" />
+          <element id="library" level="module" name="jackson-dataformat-xml-2.9.0.jar" module-name="Test01" />
+          <element id="library" level="module" name="jackson.jar" module-name="Test01" />
+          <element id="library" level="module" name="mysql-connector-java-8.0.12.jar" module-name="Test01" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
